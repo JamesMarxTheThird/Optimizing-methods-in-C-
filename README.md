@@ -1,5 +1,7 @@
 --- # Finding optimized methods #----
 
+Please note this had to be added as a zip as it had over 100 files, somehow?! 
+
 Screenshots of the output and information on how to get the project to debug properly are attached, may be useful consider the 117mb project attached.
 
 This projects main method contains 2 simple lines of C# code, calling another class containing 3 methods and loops that perform the same function. The benchmark tests all of these methods extensively and gives a final report displaying the median, mean and best times. One can use this for any similar codes to find the most optimized version, helping them develop optimized, fast software.
