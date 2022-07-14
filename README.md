@@ -1,6 +1,4 @@
-<Finding optimized methods>
-
-<Intro>
+--- # Finding optimized methods #----
 
 Screenshots of the output and information on how to get the project to debug properly are attached, may be useful consider the 117mb project attached.
 
@@ -9,17 +7,9 @@ This projects main method contains 2 simple lines of C# code, calling another cl
 Simply running the project will bring up an option panel, once the user clicks 'Continue debugging' (as displayed in attached screenshots), they will see hundreads of lines being read on the console. This 
 debugging process run the set methods hundreads of times. This feature has many usecases in software testing before implementation and will prove useful in my development journey.
 
-</Intro>
-
-<Prerequisites>
-
 To use this benchmark code you will need the BenchmarkDotNet Nuget package avaliable on Visual Studios.
 
 Then, as seen in the screenshots attached you will need to set output form to debug and set the top options, next to the 'run' icon to release and any cpu. This allows the project to debug in a specific way and show the debugging output, being the optimization.
-
-</Prerequisites>
-
-</Finding optimized methods>
 
 Options one needs to change for this to work:
 ![requirements2 0](https://user-images.githubusercontent.com/101861214/178943203-ce99a65f-6dea-47a8-aaeb-3707db2b06bd.png)
